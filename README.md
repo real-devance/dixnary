@@ -1,31 +1,53 @@
-# 📚 The "DixNary" React Dictionary App
 
-Welcome to the **DixNary** app—a simple, clean, and efficient dictionary experience!
+# Dictionary App 📚
 
-## ✨ Features
+A simple and intuitive dictionary app built with React. Search for word definitions, synonyms, and more.
 
-- 🔍 **Word Lookups:** Find definitions with ease.
-- 💡 **Smart Suggestions:** Almost like it reads your mind (but not really).
-- 🌈 **Dark Mode:** For those late-night vocabulary sessions.
+## Features
 
-## 🛠 The Secret Sauce (a.k.a. Tech Stack)
+- 📖 Word Definitions
+- 🔍 Synonyms 
+- 💡 Word Suggestions
+- 🔊 Pronunciations
 
-- **React**
-- **TypeScript**
-- **Context API**
-- **Custom Hooks:**
-  - `useTheme`: Toggle between light and dark modes.
-  - `useClickOutside`: Handle clicks outside an element.
-  - `useDebounce`: Minimize unnecessary API calls.
-- **Vite:** Fast, modern build tool.
+## 🛠️ Implementation Details
 
-## 🌍 APIs That Do The Heavy Lifting
+### Custom Hooks
 
-- **[Word Suggestions API](https://www.datamuse.com/api/):** Helps when your spelling gets... creative.
-- **[Word Definitions API](https://dictionaryapi.dev/):** Provides accurate and detailed definitions.
+- **`useClickOutside`**: Detects clicks outside of the active element to handle interactions effectively.
+- **`useDebounceValue`**: Debounces user input to improve performance by reducing unnecessary re-renders and API calls.
+- **`useTheme`**: Manages light and dark themes for a customizable user experience.
 
+### Context API
 
+- **ThemeContext**: Provides global theme management for consistent styling across the app
+- **WordSearchContext**: Manages the state and logic for handling word search queries and results
 
-## 📜 License
+## 🚀 Get It Running
 
-This project is under the "Do Whatever You Want But Don't Blame Us" License.
+```bash
+# clone
+git clone https://github.com/real-devance/dixnary-react
+
+# navigate to the project directory
+cd dixnary-react
+
+# Install dependencies
+npm install
+
+# run
+npm run dev
+```
+
+## 🧰 Tech Stack
+
+- ⚛️ React
+- 🟦 TypeScript
+- 🎨 Tailwind CSS
+- ⚡ Vite
+
+## Acknowledgements
+
+- **Dictionary API**: [dictionaryapi.dev](https://dictionaryapi.dev/) 
+- **Datamuse API**: [datamuse.com/api](https://datamuse.com/api/)
+- **Design**: [Frontend Mentor - Dictionary Web App](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL)
