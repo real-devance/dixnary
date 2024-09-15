@@ -3,6 +3,8 @@
 
 A simple and intuitive dictionary app built with React. Search for word definitions, synonyms, and more.
 
+ **[Live Demo](https://dixnary.netlify.app/)**
+
 ## Features
 
 - 📖 Word Definitions
@@ -45,6 +47,7 @@ npm run dev
 - 🟦 TypeScript
 - 🎨 Tailwind CSS
 - ⚡ Vite
+- 🛣️ React Router
 
 ## Acknowledgements
 
